@@ -1,0 +1,26 @@
+li {
+    background-color: red;
+    width: fit-content;
+    list-style: none;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 10px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lavender;
+    width: 100%;
+}
+#time {
+    text-align: right;
+}
+
+#highscores {
+    color: blueviolet;
+}
+
+.class {
+    background-color: red;
+}
