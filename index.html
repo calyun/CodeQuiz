@@ -8,9 +8,36 @@
     <body>
         <header>
             <h1 id="highscores">View Highscores</h1>
-            <h1 id="time">Time:</h1>
+            <h1>Time: <span id="time">60</span></h1>
         </header>
-        <div id="game"></div>
+        <div id="game">
+            <div class="box" id="start">
+                <h2>Coding Quiz Challenge</h2>
+                <p>This is a quiz for coding or something</p>
+                <button id="startBtn">start</button>
+            </div>
+            <div class="box" id="questions" style="display: none;">
+                <h2 id="text">This is question one?</h2>
+                <button class="q1Btn">Answer 1</button>
+                <button class="q1Btn">Answer 2</button>
+                <button class="q1Btn">Answer 3</button>
+                <button class="q1Btn">Answer 4</button>
+            </div>
+            <div class="box" id="quizOver" style="display: none;">
+                <h2>Quiz Over!</h2>
+                <p>Score: <span id=score>0</span></p>
+                <label for="intials">Enter Intials</label>
+                <input type="text" name="initials" id="initials" placeholder="C.M.Y.">
+                <button id="submit">Submit</button><br>
+            </div>
+            <div class="box" id="scoreboard" style="display: none;">
+                <h2>Highscores:</h2>
+                <div id="scores"></div>
+                <button id="goBack">Go Back</button>
+                <button id="clearHighscores">Clear Highscores</button>                
+            </div>
+        </div>
         <script type="text/javascript" src="assets/script.js"></script>
     </body>
+</html>
 </html>

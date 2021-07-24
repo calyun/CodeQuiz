@@ -21,6 +21,13 @@ header {
     color: blueviolet;
 }
 
-.class {
-    background-color: red;
+.box {
+    position: absolute;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
 }
